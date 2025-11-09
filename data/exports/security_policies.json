@@ -1,0 +1,202 @@
+{
+  "total_files": 12,
+  "policies_applied": 12,
+  "encryption_summary": {
+    "military_grade": 2,
+    "enhanced": 2,
+    "standard": 7,
+    "none": 1
+  },
+  "access_policy_summary": {
+    "confidential": 2,
+    "restricted": 4,
+    "private": 3,
+    "public": 3
+  },
+  "policies": [
+    {
+      "file_id": "CONF001",
+      "storage_location": "on-premise",
+      "data_classification": "confidential",
+      "encryption_level": "military",
+      "access_policy": "confidential",
+      "encryption_key_id": "KEY_e8c43a720511d84c",
+      "allowed_regions": [
+        "on-premise"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "CONF002",
+      "storage_location": "on-premise",
+      "data_classification": "confidential",
+      "encryption_level": "military",
+      "access_policy": "confidential",
+      "encryption_key_id": "KEY_6e7d5a118144de47",
+      "allowed_regions": [
+        "on-premise"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "SENS001",
+      "storage_location": "aws",
+      "data_classification": "sensitive",
+      "encryption_level": "enhanced",
+      "access_policy": "restricted",
+      "encryption_key_id": "KEY_c2ed56f85b3b8fcb",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "SENS002",
+      "storage_location": "azure",
+      "data_classification": "sensitive",
+      "encryption_level": "enhanced",
+      "access_policy": "restricted",
+      "encryption_key_id": "KEY_3b7bf8b3c7589e4b",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "SENS003",
+      "storage_location": "private-cloud",
+      "data_classification": "sensitive",
+      "encryption_level": "standard",
+      "access_policy": "restricted",
+      "encryption_key_id": "KEY_38905286a4dadbc8",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "SENS004",
+      "storage_location": "on-premise",
+      "data_classification": "sensitive",
+      "encryption_level": "standard",
+      "access_policy": "restricted",
+      "encryption_key_id": "KEY_aa67d9c78a3b82cc",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "INT001",
+      "storage_location": "gcp",
+      "data_classification": "internal",
+      "encryption_level": "standard",
+      "access_policy": "private",
+      "encryption_key_id": "KEY_623900a57ddfbb1d",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "INT002",
+      "storage_location": "aws",
+      "data_classification": "internal",
+      "encryption_level": "standard",
+      "access_policy": "private",
+      "encryption_key_id": "KEY_f8d1f55c73c9a7c6",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "INT003",
+      "storage_location": "private-cloud",
+      "data_classification": "internal",
+      "encryption_level": "none",
+      "access_policy": "private",
+      "encryption_key_id": null,
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "encryption_at_rest": false,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "PUB001",
+      "storage_location": "gcp",
+      "data_classification": "public",
+      "encryption_level": "standard",
+      "access_policy": "public",
+      "encryption_key_id": "KEY_b9b440013fe22add",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "PUB002",
+      "storage_location": "aws",
+      "data_classification": "public",
+      "encryption_level": "standard",
+      "access_policy": "public",
+      "encryption_key_id": "KEY_f163a7db9d72ef48",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    },
+    {
+      "file_id": "PUB003",
+      "storage_location": "azure",
+      "data_classification": "public",
+      "encryption_level": "standard",
+      "access_policy": "public",
+      "encryption_key_id": "KEY_8f48804a93a63575",
+      "allowed_regions": [
+        "on-premise",
+        "private-cloud",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "encryption_at_rest": true,
+      "encryption_in_transit": true
+    }
+  ]
+}

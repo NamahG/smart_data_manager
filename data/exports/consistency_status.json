@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-11-09T15:26:17.375854",
+  "health": {
+    "total_nodes": 5,
+    "healthy": 5,
+    "degraded": 0,
+    "failed": 0,
+    "average_uptime_percent": 99.2,
+    "total_failures": 3,
+    "last_check": "2025-11-09T15:26:17.375558"
+  },
+  "conflicts": {
+    "total_detected": 4,
+    "resolved": 4,
+    "unresolved": 0
+  },
+  "nodes": [
+    {
+      "location": "on-premise",
+      "status": "healthy",
+      "uptime_percent": 100,
+      "failures": 0,
+      "network_latency_ms": 98,
+      "last_check": "2025-11-09T15:26:17.375537"
+    },
+    {
+      "location": "private-cloud",
+      "status": "healthy",
+      "uptime_percent": 100,
+      "failures": 0,
+      "network_latency_ms": 66,
+      "last_check": "2025-11-09T15:26:17.375543"
+    },
+    {
+      "location": "aws",
+      "status": "healthy",
+      "uptime_percent": 100,
+      "failures": 0,
+      "network_latency_ms": 19,
+      "last_check": "2025-11-09T15:26:17.375547"
+    },
+    {
+      "location": "gcp",
+      "status": "healthy",
+      "uptime_percent": 100,
+      "failures": 1,
+      "network_latency_ms": 86,
+      "last_check": "2025-11-09T15:26:17.375550"
+    },
+    {
+      "location": "azure",
+      "status": "healthy",
+      "uptime_percent": 96,
+      "failures": 2,
+      "network_latency_ms": 51,
+      "last_check": "2025-11-09T15:26:17.375554"
+    }
+  ]
+}

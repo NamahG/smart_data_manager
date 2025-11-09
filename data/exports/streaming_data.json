@@ -1,0 +1,451 @@
+{
+  "timestamp": "2025-11-09T15:26:14.203919",
+  "broker_stats": {
+    "total_events": 24,
+    "buffer_size": 24,
+    "topics": [
+      "file_events",
+      "alert_events",
+      "optimization_events",
+      "migration_events"
+    ],
+    "subscriber_count": 2
+  },
+  "access_monitor": {
+    "hot_files": [
+      {
+        "file_id": "VIDEO001",
+        "access_count_5min": 21,
+        "access_rate_per_min": 4.2
+      }
+    ],
+    "anomalies": [
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "12/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:13.656291"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "13/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:13.709082"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "14/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:13.761838"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "15/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:13.813241"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "16/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:13.868799"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "17/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:13.924305"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "18/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:13.979822"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "19/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:14.035422"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "20/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:14.090446"
+      },
+      {
+        "type": "access_spike",
+        "file_id": "VIDEO001",
+        "file_name": "streaming_content.mp4",
+        "access_rate": "21/min",
+        "current_tier": "warm",
+        "recommendation": "Consider moving to HOT tier",
+        "timestamp": "2025-11-09T15:26:14.145990"
+      }
+    ]
+  },
+  "real_time_metrics": {
+    "access_events_per_second": 20,
+    "migrations_per_minute": 1,
+    "anomalies_detected": 1,
+    "optimizations_triggered": 0
+  },
+  "time_series": [
+    {
+      "timestamp": "2025-11-09T15:26:14.199774",
+      "metrics": {
+        "access_events_per_second": 17,
+        "migrations_per_minute": 0,
+        "anomalies_detected": 0,
+        "optimizations_triggered": 0
+      }
+    },
+    {
+      "timestamp": "2025-11-09T15:26:14.203968",
+      "metrics": {
+        "access_events_per_second": 20,
+        "migrations_per_minute": 1,
+        "anomalies_detected": 1,
+        "optimizations_triggered": 0
+      }
+    }
+  ],
+  "recent_events": [
+    {
+      "event_id": "EVT_1762682172992764",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 1
+      },
+      "timestamp": "2025-11-09T15:26:12.992765"
+    },
+    {
+      "event_id": "EVT_1762682173005334",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 2
+      },
+      "timestamp": "2025-11-09T15:26:13.005343"
+    },
+    {
+      "event_id": "EVT_1762682173123050",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 3
+      },
+      "timestamp": "2025-11-09T15:26:13.123057"
+    },
+    {
+      "event_id": "EVT_1762682173135671",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 4
+      },
+      "timestamp": "2025-11-09T15:26:13.135678"
+    },
+    {
+      "event_id": "EVT_1762682173248969",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 5
+      },
+      "timestamp": "2025-11-09T15:26:13.248986"
+    },
+    {
+      "event_id": "EVT_1762682173261594",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 6
+      },
+      "timestamp": "2025-11-09T15:26:13.261601"
+    },
+    {
+      "event_id": "EVT_1762682173379927",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 7
+      },
+      "timestamp": "2025-11-09T15:26:13.379938"
+    },
+    {
+      "event_id": "EVT_1762682173435214",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 8
+      },
+      "timestamp": "2025-11-09T15:26:13.435228"
+    },
+    {
+      "event_id": "EVT_1762682173490342",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 9
+      },
+      "timestamp": "2025-11-09T15:26:13.490360"
+    },
+    {
+      "event_id": "EVT_1762682173545542",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 10
+      },
+      "timestamp": "2025-11-09T15:26:13.545561"
+    },
+    {
+      "event_id": "EVT_1762682173601065",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 11
+      },
+      "timestamp": "2025-11-09T15:26:13.601086"
+    },
+    {
+      "event_id": "EVT_1762682173656193",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 12
+      },
+      "timestamp": "2025-11-09T15:26:13.656210"
+    },
+    {
+      "event_id": "EVT_1762682173708950",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 13
+      },
+      "timestamp": "2025-11-09T15:26:13.708970"
+    },
+    {
+      "event_id": "EVT_1762682173761697",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 14
+      },
+      "timestamp": "2025-11-09T15:26:13.761717"
+    },
+    {
+      "event_id": "EVT_1762682173813128",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 15
+      },
+      "timestamp": "2025-11-09T15:26:13.813158"
+    },
+    {
+      "event_id": "EVT_1762682173868607",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 16
+      },
+      "timestamp": "2025-11-09T15:26:13.868626"
+    },
+    {
+      "event_id": "EVT_1762682173924187",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 17
+      },
+      "timestamp": "2025-11-09T15:26:13.924203"
+    },
+    {
+      "event_id": "EVT_1762682173979676",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 18
+      },
+      "timestamp": "2025-11-09T15:26:13.979695"
+    },
+    {
+      "event_id": "EVT_1762682174035265",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 19
+      },
+      "timestamp": "2025-11-09T15:26:14.035284"
+    },
+    {
+      "event_id": "EVT_1762682174090337",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 20
+      },
+      "timestamp": "2025-11-09T15:26:14.090352"
+    },
+    {
+      "event_id": "EVT_1762682174145828",
+      "event_type": "file_access",
+      "file_id": "VIDEO001",
+      "data": {
+        "file_name": "streaming_content.mp4",
+        "size_mb": 5000,
+        "tier": "warm",
+        "location": "aws",
+        "access_count": 21
+      },
+      "timestamp": "2025-11-09T15:26:14.145848"
+    },
+    {
+      "event_id": "EVT_1762682174200875",
+      "event_type": "anomaly_detected",
+      "file_id": "VIDEO001",
+      "data": {
+        "anomaly_type": "access_spike",
+        "details": {
+          "file_name": "streaming_content.mp4",
+          "access_rate": "15/min",
+          "recommendation": "Move to HOT tier"
+        }
+      },
+      "timestamp": "2025-11-09T15:26:14.200886"
+    },
+    {
+      "event_id": "EVT_1762682174202303",
+      "event_type": "migration_started",
+      "file_id": "VIDEO001",
+      "data": {
+        "job_id": "MIG_00001",
+        "source": "aws",
+        "destination": "aws"
+      },
+      "timestamp": "2025-11-09T15:26:14.202307"
+    },
+    {
+      "event_id": "EVT_1762682174202859",
+      "event_type": "migration_completed",
+      "file_id": "VIDEO001",
+      "data": {
+        "job_id": "MIG_00001",
+        "success": true
+      },
+      "timestamp": "2025-11-09T15:26:14.202861"
+    }
+  ]
+}

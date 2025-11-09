@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-11-09T15:26:18.455505",
+  "total_alerts": 4,
+  "critical_alerts": 0,
+  "high_priority_alerts": 4,
+  "alerts": [
+    {
+      "alert_id": "ALERT_1762682178455",
+      "alert_type": "cost_threshold",
+      "severity": "high",
+      "message": "Monthly cost $156.75 exceeds threshold $100.00",
+      "current_value": 156.75,
+      "threshold": 100.0,
+      "resource_id": "system_wide",
+      "timestamp": "2025-11-09T15:26:18.455485",
+      "acknowledged": false
+    },
+    {
+      "alert_id": "ALERT_1762682178455",
+      "alert_type": "latency_threshold",
+      "severity": "high",
+      "message": "Latency 725.0ms exceeds threshold 500ms",
+      "current_value": 725,
+      "threshold": 500,
+      "resource_id": "system_wide",
+      "timestamp": "2025-11-09T15:26:18.455491",
+      "acknowledged": false
+    },
+    {
+      "alert_id": "ALERT_1762682178455",
+      "alert_type": "capacity_warning",
+      "severity": "high",
+      "message": "Capacity at 91.0% exceeds threshold 85%",
+      "current_value": 91,
+      "threshold": 85,
+      "resource_id": "storage",
+      "timestamp": "2025-11-09T15:26:18.455497",
+      "acknowledged": false
+    },
+    {
+      "alert_id": "ALERT_1762682178455",
+      "alert_type": "performance_degradation",
+      "severity": "high",
+      "message": "Performance degraded by 58.0% from baseline",
+      "current_value": 42,
+      "threshold": 70.0,
+      "resource_id": "system_wide",
+      "timestamp": "2025-11-09T15:26:18.455502",
+      "acknowledged": false
+    }
+  ],
+  "thresholds": {
+    "cost_monthly": 100.0,
+    "latency_ms": 500,
+    "capacity_percent": 85,
+    "error_rate_percent": 5.0
+  },
+  "alert_summary": {
+    "cost_violations": 1,
+    "latency_violations": 1,
+    "capacity_warnings": 1,
+    "performance_issues": 1
+  }
+}
